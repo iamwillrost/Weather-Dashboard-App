@@ -10,11 +10,11 @@ A website that displays the weather forcast of any given city as input by the us
 * API: openweathermap.org
  
 ## Website
-
+https://iamwillrost.github.io/Weather-Dashboard-App/
  
-## ![Weather Dashboard]
+## 
 
 ## Contribution
 
 
-### ©️2021 Weather Dashboard
+### ©️2022 Weather Dashboard
