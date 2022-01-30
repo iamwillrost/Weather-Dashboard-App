@@ -1,0 +1,130 @@
+<!doctype html>
+<!--
+Here's a helpful video introduction to Bootstrap 4.0:
+    https://www.youtube.com/watch?v=oRLB3HKr9l4
+The code below uses a bootstrap 4.0 template from here:
+    https://getbootstrap.com/docs/4.0/getting-started/introduction/
+-->
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Link in CSS-->
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Weather Dashboard</title>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="d-flex flex-column">
+      <div id="header">Weather Dashboard</div>
+      <div id="middle" class="d-flex flex-row">
+        <!-- The left column has the search box and buttons-->
+        <div id="search-and-buttons" class="d-flex flex-column">
+          <div class="d-flex flex-column">
+            <div id="search">Search for a City:</div>
+            <div>
+              <input id="search-input" class="ui-autocomplete-input"type="text"/>
+            </div>
+            <div id="search-button">Search</div>
+          </div>
+          <div id="button0" class="button">&nbsp;</div>
+          <div id="button1" class="button">&nbsp;</div>
+          <div id="button2" class="button">&nbsp;</div>
+          <div id="button3" class="button">&nbsp;</div>
+          <div id="button4" class="button">&nbsp;</div>
+        </div>
+        <div id="current-and-forecast" class="d-flex flex-column">
+          <div id="current" class="d-flex flex-column">
+            <div id="city">&nbsp;</div>
+            <div id="temp">&nbsp;</div>
+            <div id="wind">&nbsp;</div>
+            <div id="humidity">&nbsp;</div>
+            <div id="uv">&nbsp;</div>
+          </div>
+          <div>5-Day Forecast</div>  
+          <div id="forecast" class="d-flex flex-row">
+            <div id="day0" class="day d-flex flex-column">
+              <div id="day-0-date">&nbsp;</div>
+              <div id="day-0-icon">&nbsp;</div>
+              <div id="day-0-temp">&nbsp;</div>
+              <div id="day-0-wind">&nbsp;</div>
+              <div id="day-0-humidity">&nbsp;</div>
+            </div>
+            <div id="day1" class="day d-flex flex-column">
+              <div id="day-1-date">&nbsp;</div>
+              <div id="day-1-icon">&nbsp;</div>
+              <div id="day-1-temp">&nbsp;</div>
+              <div id="day-1-wind">&nbsp;</div>
+              <div id="day-1-humidity">&nbsp;</div>
+            </div>
+            <div id="day2" class="day d-flex flex-column">
+              <div id="day-2-date">&nbsp;</div>
+              <div id="day-2-icon">&nbsp;</div>
+              <div id="day-2-temp">&nbsp;</div>
+              <div id="day-2-wind">&nbsp;</div>
+              <div id="day-2-humidity">&nbsp;</div>
+            </div>
+            <div id="day3" class="day d-flex flex-column">
+              <div id="day-3-date">&nbsp;</div>
+              <div id="day-3-icon">&nbsp;</div>
+              <div id="day-3-temp">&nbsp;</div>
+              <div id="day-3-wind">&nbsp;</div>
+              <div id="day-3-humidity">&nbsp;</div>
+            </div>
+            <div id="day4" class="day d-flex flex-column">
+              <div id="day-4-date">&nbsp;</div>
+              <div id="day-4-icon">&nbsp;</div>
+              <div id="day-4-temp">&nbsp;</div>
+              <div id="day-4-wind">&nbsp;</div>
+              <div id="day-4-humidity">&nbsp;</div>
+            </div>
+          </div>
+        </div>
+      <div id="footer"></div>
+    </div>
+  </div>
+
+ <!-- JQuery -->
+ <script
+ src="https://code.jquery.com/jquery-3.6.0.min.js"
+ integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+ crossorigin="anonymous">
+</script>
+
+<!-- JQuery UI -->
+<script
+ src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+ integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+ crossorigin="anonymous">
+</script>
+
+<!-- Bootstrap CSS -->
+<link 
+rel="stylesheet" 
+ href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+ crossorigin="anonymous">
+
+<!-- Bootstrap JS -->
+<script 
+ src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+ crossorigin="anonymous">
+</script>
+
+<!-- My own scripts -->
+<script src="cities.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+

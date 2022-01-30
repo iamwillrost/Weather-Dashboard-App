@@ -1,0 +1,99 @@
+#header {
+    background-color:darkblue;
+    color: white;
+    font-size: 1.5em;
+    padding: 10px;
+    text-align: center;
+}
+
+.green-span {
+    background-color: green;
+    color: white;  
+}
+
+.yellow-span {
+    background-color: yellow;
+    color: black;  
+}
+
+.red-span {
+    background-color: red;
+    color: white;    
+}
+
+.button {
+    background-color: darkblue;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 8px;
+    padding: 10px;
+    width: 300px;
+}
+
+.button:hover {
+    background-color: deepskyblue;
+}
+
+
+.day {
+    width: 140px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+#current-and-forecast {
+    margin-left: 20px;
+}
+
+.day{
+    margin-right: 20px;
+}
+
+#current {
+  border: 2px solid black;  
+  margin-bottom: 8px;
+  padding-left: 5px;
+  margin-top: 20px;
+}
+
+#city {
+    font-size: 2.0em;
+}
+
+#search-button {
+    background-color: dodgerblue;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+#search-button:hover {
+    background-color: deepskyblue;
+}
+
+#search-input {
+    width: 100%;
+}
+
+.ui-menu {
+    width: 200px;
+}
+    
+.ui-menu .ui-menu-item {
+    background-color: darkblue;
+    color: white;
+    padding-left: 8px;
+}
+    
+.ui-helper-hidden-accessible {
+    display: none;
+}
+    
+    
+
+    
+    
